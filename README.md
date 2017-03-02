@@ -6,9 +6,9 @@ Before running the command:
 
     ./install.sh
 
-make sure that demo.conf contains the correct settings and that the
-binaries are available in the "dist" directory.  The README.md file
-in that directory lists what files are needed.
+make sure that `demo.conf` contains the correct settings and that
+the binaries are available in the `dist` directory.  The `README.md`
+file in that directory lists what files are needed.
 
 ## Install a base EAP environment
 
@@ -16,8 +16,8 @@ Simply run the command:
 
     ./install.sh
 
-To use the quickstart demo, make sure to use the installer option
-since it will install the various quickstarts.
+To use the quickstarts, make sure to use the installer option since
+it will install the various quickstarts.
 
 ## Simple Cluster Demo
 
@@ -43,15 +43,15 @@ controller:
 
     http://localhost:9990
 
-Use the credentials admin/admin1jboss! to login as an administrator.
-Click on the "Deployments" tab and then click the "Add" button.
+Use the credentials `admin/admin1jboss!` to login as an administrator.
+Click on the `Deployments` tab and then click the `Add` button.
 Browse to the resources directory for this demo and select the file
-"cluster_test.war".  Click "Next" and then "Save".
+`cluster_test.war`.  Click `Next` and then `Save`.
 
-Select the cluster_test.war in the table on the Deployments tab
-then click the "Assign" button.  Check the box to add the application
-to server group "group-station", make sure that "Enable cluster_test.war"
-is checked, and click the "Save" button.
+Select the `cluster_test.war` in the table on the `Deployments` tab
+then click the `Assign` button.  Check the box to add the application
+to server group `group-station`, make sure that `Enable cluster_test.war`
+is checked, and click the `Save` button.
 
 The application will be deployed within each server as shown in the
 separate terminal windows.
